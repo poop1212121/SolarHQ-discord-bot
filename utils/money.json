@@ -1,0 +1,35 @@
+{
+  "864612087741546527": {
+    "balance": 8869198654693527,
+    "lastDaily": 0,
+    "workCount": 20,
+    "lastWorkTime": 1742151656385,
+    "workDays": 20,
+    "job": "Retired",
+    "salary": 500,
+    "retired": true
+  },
+  "1258873268329250919": {
+    "balance": 246,
+    "lastDaily": 0,
+    "lastWorkTime": 1739999871725,
+    "workDays": null
+  },
+  "1071485967938093137": {
+    "balance": 2000,
+    "lastDaily": 0
+  },
+  "1322938356962824235": {
+    "balance": 42069,
+    "lastDaily": 0
+  },
+  "1339394323137036318": {
+    "balance": 1000
+  },
+  "1102668707391602739": {
+    "balance": 2000
+  },
+  "1027658688380538890": {
+    "balance": 600000100
+  }
+}

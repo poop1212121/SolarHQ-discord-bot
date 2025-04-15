@@ -1,0 +1,18 @@
+module.exports = {
+  getBalance(userId) {
+    return balances[userId] || 0;
+  },
+  addBalance(userId, amount) {
+    if (!balances[userId]) balances[userId] = 0;
+    balances[userId] += amount;
+  },
+  setBalance(userId, amount) {
+    balances[userId] = amount;
+  },
+  getTopUsers(limit = 5) {
+    return Object.entries(balances)
+      .map(([userId, balance]) => ({ userId, balance }))
+      .sort((a, b) => b.balance - a.balance)
+      .slice(0, limit);
+  }
+};
